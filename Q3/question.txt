@@ -1,0 +1,9 @@
+Implement a Task queue. Have a Task struct and create Task objects and push them to a queue. Have a go-routine which periodically checks the tasks queue and inspect if the task is completed or not. If the task is completed then remove it from the queue, if not completed push back into the queue. If the task is not completed after a certain amount of time then it should be removed from the queue and marked as a timeout. 
+
+type Task struct {
+   Id string
+   IsCompleted boolean // have a random function to mark the IsCompleted after a random period  
+   Status string //completed, failed, timeout
+}
+
+Implement the above mentioned logic with proper error handling and write Go unit test cases to verify the scenarios with complete code coverage
