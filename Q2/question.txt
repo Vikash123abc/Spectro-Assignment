@@ -1,0 +1,4 @@
+Imagine a simple application where one can plug different database engines like Postgres or MongoDb as the persistence service.
+Provide a sample code implementation where user can decide the database engine at the configuration level.
+
+The task is to implement any model objects which can be persisted to the database, however, the database engine can be decided by the user configuration.
